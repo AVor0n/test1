@@ -1,0 +1,18 @@
+$primary-color: blue;
+
+@font-face {
+	font-family: 'test-font';
+	src: url('../assets/fonts/Volja.otf');
+}
+
+.page {
+    &-title{
+        font-family: 'test-font';
+        color: $primary-color;
+    }
+    .image{
+        height: 3000px;
+        width: 300px;
+        background-image: url('../assets/img/cat3.jpg');
+    }
+}
